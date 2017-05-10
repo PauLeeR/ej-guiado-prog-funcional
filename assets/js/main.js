@@ -1,7 +1,7 @@
 //tenemos dos arreglos y hay que recorrerlos y retornar aquellos elementos que coincidan en ambos; hay que hacerlo de dos formas: de manera imperativa y de manera declarativa
 
 //forma imperativa
-var l1=[1,2,3];
+/*var l1=[1,2,3];
 var l2=[2,3,4];
 function intersection(){
   var l3=[];
@@ -14,19 +14,16 @@ function intersection(){
 	}
 	return l3;
 }
-document.write(intersection(l1, l2));
+document.write(intersection(l1, l2));*/
 
 //intersection(l1, l2);
 
 //forma declarativa, funcional, utilizando funciones
-/*var l1=[1,2,3];
+var l1=[1,2,3];
 var l2=[2,3,4];
 function intersectionSet2(l1, l2){
 	return l1.filter(function(n){
 		return l2.indexOf(n) !== -1
 	});
 };
-document.write(intersectionSet2(l1, l2));*/
-
-//ejercicio guiado 2 
-//forma imperativa con for
+document.write(intersectionSet2(l1, l2));
