@@ -58,17 +58,19 @@ var productos = [
 },
 ];
 
-var computadores = [];
+var computadores = productos.filter(function(producto){
+	return producto.tipo === 'computador';
+});
+console.log(computadores);
+
+
+
+/*var computadores = [];
 for(var i=0; i<productos.length; i++){
 	if (productos[i].tipo === 'computador'){
 		computadores.push(productos[i]);
 	}
 }
-console.log(computadores)
-
-/*var computadores = productos.filter(function(producto){
-	return producto.tipo === 'computador';
-});
-console.log(computadores);*/
+console.log(computadores)*/
 
 
